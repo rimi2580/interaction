@@ -1,0 +1,111 @@
+body {
+  font-family: "SUITE Variable", sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 2em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h6 {
+  font-size: 26px;
+  margin: 0;
+  line-height: 2em;
+}
+
+p {
+  font-size: 18px;
+  color: #575656;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  display: flex;
+  padding: 20px 50px;
+  border-bottom: 2px solid #000;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.title {
+  padding: 0 0 50px 0;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  gap: 30px;
+}
+
+.box {
+  background-color: #e2e2e2;
+  padding: 20px 30px;
+}
+
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  main {
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
+  }
+
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .box {
+    margin: 10%;
+  }
+}
