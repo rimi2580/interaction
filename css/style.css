@@ -1,0 +1,136 @@
+body {
+    font-family: "Pretendard Variable", sans-serif;
+    background: black;
+    color: white;
+}
+
+/* 헤더 전체 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 30px;
+    padding: 8px 30px;
+
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+/* YVR 로고 */
+.header-left h1 {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* 가운데 메뉴 */
+.header-nav {
+    display: flex;
+    gap: 40px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* BOARDING */
+.header-right {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Departures 영역 */
+.departures {
+    margin: 120px 8%;
+}
+
+/* 비행기 아이콘 + 제목 */
+.departures-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* 비행기 아이콘 */
+.departures-title img {
+    width: 52px;
+    height: 52px;
+}
+
+/* Departures 제목 */
+.departures-title h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* 전광판 항목 제목 */
+.flight-labels {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Time */
+.flight-time {
+    width: 22.5%;
+}
+
+/* Destination */
+.flight-destination {
+    width: 66.5%;
+}
+
+/* Status */
+.flight-status {
+    width: 12%;
+}
+
+/* 전광판 이미지 */
+.flight-list {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.flight-list img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 탑승권 섹션 */
+.boarding {
+    margin-top: 200px;
+}
+
+/* READY TO BOARD + VANCOUVER */
+.boarding-title {
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* READY TO BOARD */
+.boarding-title p {
+    font-size: 30px;
+    margin: 0;
+}
+
+
+/* VANCOUVER */
+.boarding-title h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* 탑승권 이미지 */
+.ticket-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.ticket-image img {
+    width: 350px;
+    height: auto;
+}
